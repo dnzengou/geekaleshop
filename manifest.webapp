@@ -1,0 +1,22 @@
+{
+  "version": "1.0.0",
+  "name": "Transifex Employee Directory",
+  "launch_path": "/index.html",
+  "description": "tx contact manager",
+  "developer": {
+    "name": "desireyavro",
+    "url": "https://desireyavro.com"
+  },
+  "installs_allowed_from": [
+    "*"
+  ],
+  "default_locale": "en",
+  "permissions": {
+  },
+  "locales": {
+    "en": {
+      "name": "Transifex Employee Directory",
+      "description": "tx contact manager"
+    }
+  }
+}

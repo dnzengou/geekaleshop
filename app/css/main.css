@@ -1,0 +1,101 @@
+body {
+    padding: 50px;
+    line-height: 150%;
+}
+
+.tx-header {
+    position: relative;
+    padding: 30px 15px;
+    font-size: 20px;
+    color: #818791;
+    text-align: center;
+    text-shadow: 0 1px 0 rgba(0, 0, 0, .1);
+    background-color: #818791;
+}
+
+.tx-header h1 {
+    margin-top: 0;
+    color: #fff;
+}
+
+.tx-header p {
+    margin-bottom: 0;
+    font-weight: 300;
+    line-height: 1.4;
+}
+
+.media-object {
+    width: 128px;
+    height: 128px;
+    border-radius: 5px;
+}
+
+.media .thumbnail {
+    display: inline-block;
+    margin-bottom: 0;
+}
+
+.media-list {
+    text-align: left;
+}
+
+@media (min-width: 450px) and (max-width: 767px) {
+    .media-list {
+        text-align: left;
+    }
+    .media .thumbnail {
+        float: left;
+        margin-right: 25px;
+    }
+}
+
+.media:first-child {
+    margin-top: 15px;
+}
+
+.btn-outline {
+    color: #818791;
+    background-color: transparent;
+    border-color: #818791;
+}
+
+.btn-outline:hover,
+.btn-outline:focus,
+.btn-outline:active {
+    color: #fff;
+    background-color: #818791;
+    border-color: #818791;
+}
+
+a {
+    color: #818791;
+}
+
+a:hover,
+a:focus {
+    color: #e5e5e5;
+}
+
+a.thumbnail:hover,
+a.thumbnail:focus,
+a.thumbnail.active {
+    border-color: #818791;
+}
+
+@media (min-width: 768px) and (max-width: 911px) {
+    #search {
+        padding-left: 0px;
+    }
+}
+
+.tx-image {
+    position: relative;
+    width: 128px;
+    height: 128px;
+    border-radius: 25px;
+}
+
+.heart {
+    font-size: 25px;
+    color: red;
+}
