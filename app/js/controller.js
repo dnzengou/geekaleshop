@@ -129,114 +129,44 @@ ContactManager.Controller = Marionette.Controller.extend({
     _createSampleData: function() {
         _.each([{
                 id: 1,
-                name: 'Kristin S.',
+                name: 'Yannick.',
                 tel: '210-270-8888',
-                email: 'KristinS@transifex.com',
+                email: 'yannick@geekali.rw',
                 avatar: '1.png',
                 position: 'Operations',
-                address: 'Marinou Antipa 41-45, Neo Iraklio, Attiki, Greece',
+                address: 'KG 111 St',
                 linkedin: ''
 
             },
             {
                 id: 2,
-                name: 'Mike G. Manning',
+                name: 'Leon',
                 tel: '210-270-8881',
-                email: 'MikeManning@transifex.com',
+                email: 'leon@geekali.rw',
                 avatar: '2.png',
-                position: 'Awesome Software Engineer 1',
-                address: 'Marinou Antipa 41-45, Neo Iraklio, Attiki, Greece',
+                position: 'Operations',
+                address: 'KG 222 St',
                 linkedin: ''
             },
             {
                 id: 3,
-                name: 'Thanos K.',
+                name: 'Ange',
                 tel: '210-270-8882',
-                email: 'ThanosK@transifex.com',
+                email: 'yannick@geekali.rw',
                 avatar: '3.png',
-                position: 'Awesome Software Engineering 2',
-                address: 'Marinou Antipa 41-45, Neo Iraklio, Attiki, Greece',
+                position: 'Operations',
+                address: 'KG 333 St',
                 linkedin: ''
-            },
-            {
-                id: 4,
-                name: 'Konstantinos B.',
-                tel: '210-270-8883',
-                email: 'KonstantinosB@transifex.com',
-                avatar: '4.png',
-                position: 'Awesome Software Engineering 2',
-                address: 'Marinou Antipa 41-45, Neo Iraklio, Attiki, Greece',
-                linkedin: ''
-            },
-            {
-                id: 5,
-                name: 'Dimitris Glezos',
-                tel: '210-270-8884',
-                email: 'DimitrisGlezos@transifex.com',
-                avatar: '5.png',
-                position: 'CEO',
-                address: 'Menlo Park, CA 94025.',
-                linkedin: 'linkedin.com/in/glezos'
-            },
-            {
-                id: 6,
-                name: 'Anita Kutlesa',
-                tel: '210-270-8885',
-                email: 'AnitaKutlesa@transifex.com',
-                avatar: '6.png',
-                position: 'CFO',
-                address: 'Marinou Antipa 41-45, Neo Iraklio, Attiki, Greece',
-                linkedin: 'linkedin.com/in/anita-kutlesa-27a5382'
-            },
-            {
-                id: 7,
-                name: 'Antonios Garnelis',
-                tel: '210-270-8886',
-                email: 'AntoniosGarnelis@transifex.com',
-                avatar: '7.png',
-                position: 'VP Product',
-                address: 'Marinou Antipa 41-45, Neo Iraklio, Attiki, Greece',
-                linkedin: 'linkedin.com/in/antonios-garnelis-09778835'
-            },
-            {
-                id: 8,
-                name: 'Garrick Jang',
-                tel: '210-270-8887',
-                email: 'GarrickJang@transifex.com',
-                avatar: '8.png',
-                position: 'VP Sales',
-                address: 'Marinou Antipa 41-45, Neo Iraklio, Attiki, Greece',
-                linkedin: 'linkedin.com/in/garrick-jang-3949a838'
             },
             {
                 id: 9,
-                name: 'Désiré N.',
+                name: 'Désiré',
                 tel: '210-270-8880',
-                email: 'DesireN@transifex.com',
+                email: 'yannick@geekali.rw',
                 avatar: '9.png',
-                position: 'Candidate',
-                address: '1050 Ixelles, Brussels, Belgium',
+                position: 'Dev Operations',
+                address: 'KG 000 St',
                 linkedin: 'linkedin.com/in/ednzengou'
-            },
-            {
-                id: 10,
-                name: 'Nick K.',
-                tel: '210-270-8889',
-                email: 'NickK@transifex.com',
-                avatar: '10.png',
-                position: 'Sales',
-                address: 'Marinou Antipa 41-45, Neo Iraklio, Attiki, Greece',
-                linkedin: ''
-            },
-            {
-                id: 11,
-                name: 'Katerina M.',
-                tel: '210-270-88810',
-                email: 'KaterinaM@transifex.com',
-                avatar: '11.png',
-                position: 'Design',
-                address: 'Marinou Antipa 41-45, Neo Iraklio, Attiki, Greece',
-                linkedin: ''
             }
         ], function(contact) {
             this._contacts.create(contact);
